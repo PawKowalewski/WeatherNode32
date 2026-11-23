@@ -1,0 +1,35 @@
+# --- KiCad: pliki tymczasowe i kopie zapasowe ---
+*-backups/
+*.bak
+*.kicad_prl
+*-bak
+*.sch-bak
+*-cache.lib
+*-rescue.lib
+*-rescue.dcm
+fp-info-cache
+_autosave-*
+*.lck
+~*
+
+# --- Symulacja / eksporty ---
+*.log
+*.raw
+*.net
+
+# --- Firmware (PlatformIO / Arduino) ---
+.pio/
+.vscode/
+*.elf
+*.bin
+
+# --- Sekrety (WAŻNE: hasła Wi-Fi i MQTT) ---
+secrets.h
+credentials.h
+.env
+
+# --- System ---
+.DS_Store
+Thumbs.db
+
+.history/
